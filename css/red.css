@@ -1,0 +1,26 @@
+header #logo {
+	background-color: #CA3413;
+}
+
+nav ul li:hover {
+	background-color: #CA3413;
+}
+
+.post .button-more {
+	background-color: #CA3413;
+}
+
+body {
+	background: url("../img/rojo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Verdana;
+}
+
+.ui-accordion-header-active, .ui-state-active{
+	background-color: #CA3413 !important;
+	border-color: #CA3413 !important;
+}

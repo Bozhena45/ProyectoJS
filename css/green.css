@@ -1,0 +1,26 @@
+header #logo {
+	background-color: #235E3D;
+}
+
+nav ul li:hover {
+	background-color: #235E3D;
+}
+
+.post .button-more {
+	background-color: #235E3D;
+}
+
+body {
+	background: url("../img/hojas.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Verdana;
+}
+
+.ui-accordion-header-active, .ui-state-active{
+	background-color: #235E3D !important;
+	border-color: #235E3D !important;
+}

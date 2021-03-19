@@ -1,0 +1,230 @@
+body {
+	background: url("../img/hojas.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Verdana;
+}
+
+section#global {
+	width: 65%;
+	background-color: white;
+	padding: 1rem;
+	margin-top: 1rem;
+}
+
+/* Header */
+header #logo {
+	font-size: 2rem;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+	width: 50%;
+}
+
+nav {
+	background-color: #333;
+	margin-top: 1rem;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	transition: all 300ms;
+	padding: 1rem;
+}
+
+nav ul li:hover {
+	height: 100%;
+}
+
+nav ul li a {
+	color: white;
+	padding: 0 30px;
+}
+/* Fin Header */
+
+#content {
+	display: flex;
+
+}
+
+/* Articulos */
+div#posts {
+	width: 60%;
+}
+
+.post {
+	margin-top: 1rem;
+}
+
+h2{
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: #333;
+}
+
+.post .date {
+	color: gray;
+	margin-top: 10px;
+	display: block;
+}
+.post p {
+	margin: 1rem 0;
+	text-align: justify;
+}
+
+.post .button-more {
+	font-size: 0.7rem;
+	padding: 0.8rem;
+	color: white;
+	display: inline-block;
+}
+/* Fin Articulos */
+
+/* Aside */
+#sidebar {
+	width: 31%;
+	margin-left: auto;
+}
+
+#sidebar h4 {
+	margin: 1rem 0 2rem 0;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+} 
+
+#sidebar #about figure{
+	height: 150px;
+	width: 150px;
+	margin: auto;
+}
+
+#sidebar #about img {
+	border-radius: 50%;
+}
+
+#sidebar #about p {
+	font-size: 1rem;
+	padding: 1rem 0;
+	text-align: justify;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+form input[type="text"], #sidebar form input[type="password"], form input[type="email"], form select {
+	padding: 0.3rem;
+	border: 1px solid  #ccc;
+	border-radius: 3px;
+	margin-bottom: 0.5rem;
+}
+form input[type="submit"] {
+	background-color: #eee;
+	padding: 0.5rem;
+	border: 1px solid grey;
+	color: #333;
+}
+/* Fin Aside */
+
+/* Footer */
+footer {
+	color: white;
+	height: 50px;
+	background-color: rgba(51, 51, 51, 0.7);
+	width: 65%;
+	padding: 1rem;
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .subir{
+	color: white;
+	display: block;
+}
+/* Fin Footer */
+
+/* Slider */
+.bx-wrapper, .bx-viewport {
+	height: 250px !important;
+}
+/* Fin Slider */
+
+/* Selector tema */
+#selector-theme {
+	position: fixed;
+	top: 40%;
+	background-color: rgba(51, 51, 51, 0.7);
+	width: 30px;
+	left: 0;
+	padding: 1rem;
+}
+#selector-theme #to-green,
+#selector-theme #to-red,
+#selector-theme #to-blue {
+	height: 30px;
+	border: 1px solid white;
+	margin-top: 0.3rem;
+	cursor: pointer;
+}
+
+#selector-theme #to-green {
+	background-color: #235E3D;
+}
+
+#selector-theme #to-red {
+	background-color: #CA3413;
+}
+
+#selector-theme #to-blue {
+	background-color: #1F87C4;
+}
+/* Fin Selector tema */
+
+#box {
+	width: 60%;
+	padding-top: 1rem;
+}
+
+/* Form contacto */
+#box form label{
+	margin-top: 1rem;
+}
+/* Fin Form contacto */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+header #logo {
+	background-color: #1F87C4;
+}
+
+nav ul li:hover {
+	background-color: #1F87C4;
+}
+
+.post .button-more {
+	background-color: #1F87C4;
+}
+
+body {
+	background: url("../img/cielo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Verdana;
+}
+
+.ui-accordion-header-active, .ui-state-active{
+	background-color: #1F87C4 !important;
+	border-color: #1F87C4 !important;
+}
